@@ -6,8 +6,8 @@ import joblib
 model = joblib.load('logistic_regression_model.pkl') 
 
 # 2.모델 설명
-st.title('_______')
-col1, col2,col3 = st.columns( 2 )      # 몇 개의 컬럼으로 나눌까?
+st.title('합격')
+col1, col2,col3 = st.columns( 3 )      # 몇 개의 컬럼으로 나눌까?
 with col1:
       st.subheader('모델 설명 ')
       st.write(' - 기계학습 알고리즘 : 로지스틱 회귀 ')
